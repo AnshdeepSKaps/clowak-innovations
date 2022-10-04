@@ -1,0 +1,9 @@
+.anchor{
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
+
+.anchor:hover{
+    text-decoration: underline;
+    color: white;
+}
