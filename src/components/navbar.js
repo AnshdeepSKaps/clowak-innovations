@@ -16,7 +16,7 @@ export default function navbar() {
     }
 
     return (
-        <nav className="navbar" style={{ background: "rgba(98,190,31,1)", width: "100%", position: "fixed" }}>
+        <nav className="navbar" style={{ background: "rgba(98,190,31,1)", width: "100vw", position: "fixed" }}>
             <div className="container-fluid justify-content-between">
 
                 <div className="d-flex justify-content-center" style={{

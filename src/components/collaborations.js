@@ -7,10 +7,10 @@ export default function collaborations() {
     }
 
     return (
-        <div>
+        <div className='pt-5 pb-5' style={{ background: "white" }}>
             <h1>Collaborators/Customers/Recognitions/our Part</h1>
 
-            <div className='w-100 d-flex flex-row justify-content-around'>
+            <div className='d-flex flex-row justify-content-around' style={{ width: "100vw" }}>
 
                 <img style={imageStyle} src="https://static.wixstatic.com/media/64fb46_9c5cdfe33e584cee88c1f9af189ab5e2~mv2.jpg/v1/fit/w_138,h_115,q_90/64fb46_9c5cdfe33e584cee88c1f9af189ab5e2~mv2.jpg" alt="" />
                 <img style={imageStyle} src="https://static.wixstatic.com/media/64fb46_eab272afb6624e42829dc412c27d2972~mv2.png/v1/fit/w_138,h_138,q_90/64fb46_eab272afb6624e42829dc412c27d2972~mv2.png" alt="" />

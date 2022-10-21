@@ -6,9 +6,6 @@
 
 .card
 {
-    /* margin-right: 40px; */
-    /* top:100px; */
-    left:5px;
     border-color: blue;
     border: blue,solid;
     scroll-behavior: smooth;

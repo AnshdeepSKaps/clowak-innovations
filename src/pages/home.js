@@ -2,8 +2,9 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Info1 from '../components/info1'
 import bg from '../images/bg.jpg'
-import Body from '../components/Body'
+import Info2 from '../components/info2'
 import Collaborations from '../components/collaborations'
+import Animal from '../components/Animal'
 
 export default function home() {
 
@@ -28,8 +29,10 @@ export default function home() {
 
             <Info1 />
             <Collaborations />
+            <Info2 />
+            <Animal />
 
-            <Body />
+
 
         </div>
 

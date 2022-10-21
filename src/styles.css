@@ -1,6 +1,6 @@
 body{
     padding-bottom: 200px;
-    background: rgb(255, 255, 255);
+    background: rgb(246, 246, 246);
     /* font-family: ; */
     /* font-family: 'Alkalami', serif; */
 }
@@ -15,15 +15,15 @@ body{
 
 .anchor:hover{
     border-radius: 10px;
-    background: rgb(239, 235, 235);
+    background: rgb(247, 247, 247);
     color: black;
     /* text-decoration: underline; */
 
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     
     .info1-container{
-        /* flex-direction: column !important; */
+        flex-direction: column !important;
     }
-}
+} */

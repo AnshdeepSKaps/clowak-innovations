@@ -1,0 +1,60 @@
+.container{
+    background-image: linear-gradient(to bottom left, rgb(211, 199, 25), rgba(19, 229, 19, 0.776));
+    color:white;
+    height:500px;
+    width: 1277px;
+    border: 1px solid black;
+    
+}
+.bio-text{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    opacity: 0.8;
+}
+.text
+{
+    color: black;
+}
+.img1{
+   
+    margin-left:700px;
+    position: relative;
+    bottom:250px;
+    
+}
+.text1{
+    font-size:18px;
+    margin-left:100px;
+    margin-right:650px;
+    line-height: 1.8;
+    margin-top: 20px;
+    
+}
+.img1{
+    animation: 1s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+    width: 300%;
+    }
+    to{
+        margin-left: 700px;
+    width: 100%;
+    }
+}
+.bio-text{
+    animation: 1s;
+    animation-name: head-slide;
+}
+@keyframes head-slide {
+    from{
+        margin-top:80px;
+    }
+    to{
+        margin-top:20px;
+    }
+}
