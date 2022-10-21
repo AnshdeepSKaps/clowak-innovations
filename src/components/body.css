@@ -1,0 +1,39 @@
+.logo
+{
+    width:20%;
+
+}
+
+.card
+{
+    /* margin-right: 40px; */
+    /* top:100px; */
+    left:5px;
+    border-color: blue;
+    border: blue,solid;
+    scroll-behavior: smooth;
+    user-select: none;
+    justify-content: space-around;
+    background-color: rgb(244, 187, 82);
+    color: white;
+}
+
+.text
+{
+    color:#1EB04D;
+    font-size: 80px;
+    font-family: reklamescriptw00-medium,cursive;
+    line-height: 0.5em;
+    position: relative;
+    left:600px;
+    vertical-align: baseline;
+    background: transparent;
+    top:20px;
+}
+
+.card-deck
+{
+    width: 100%;
+    display: flex;
+}
+

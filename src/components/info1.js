@@ -4,44 +4,70 @@ import briefcase from '../images/briefcase.jpg'
 export default function info1() {
 
     const infoStyle = {
-        // border: "2px solid red",
-        height: "100vh",
-        width: "100%",
+        height: "50vh",
+        width: "50%",
         display: "grid",
         gridTemplateColumns: "2fr 1fr",
+        margin: "auto"
+    }
+
+    const pStyle = {
+        height: "50vh",
+        width: "100%",
+        fontSize: "1rem",
+        backgroundColor: "rgba(98,190,31)",
+        borderRadius: "20px"
     }
 
     const imgStyle = {
-        height: '100%',
-        width: "100%",
-        backgroundImage: `url(${briefcase})`,
-        backgroundRepeat: "no-repeat"
-    }
-
-
-    const pStyle = {
         height: "100%",
         width: "100%",
-        fontSize: "1.85rem",
-        fontWeight: "bolder",
-        backgroundColor: "#00ff80"
+        backgroundImage: "url(\"https://static.wixstatic.com/media/64fb46_7aa99848aa9640eba0178ee5357c51c5~mv2.jpg/v1/fill/w_626,h_913,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/64fb46_7aa99848aa9640eba0178ee5357c51c5~mv2.jpg\")",
+        // backgroundImage: `url(${briefcase})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        borderTopRightRadius: "20px",
+        borderBottomRightRadius: "20px",
+    }
 
+    const btnStyle = {
+        marginTop: "20px",
+        height: "50px",
+        width: "100px",
+        background: "rgb(244,187,82)",
+        borderRadius: "20px",
+        color: "white",
+        fontWeight: "bolder"
+        // border: "4px solid rgb(254,138,3)"
     }
 
     return (
         <>
-            <div className='' style={{ height: "3vh", width: "100%" }}>
+            <div className='' style={{ height: "3vh", width: "100%" }}></div>
 
-            </div>
-            <div className='align-items-center justify-content-center' style={infoStyle}>
+            <div className='container-fluid d-flex flex-md-row flex-column align-items-center justify-content-center info1-container' style={{ gap: "3rem" }}>
 
-                <div className="ps-5 pe-5 d-flex justify-content-center align-items-center" style={pStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam aspernatur placeat soluta aliquid neque reprehenderit odio deleniti ipsa sit perspiciatis, labore asperiores, consequuntur vitae dignissimos voluptas voluptatibus veritatis quod, repellat unde! Facere ab labore eligendi, quasi expedita perspiciatis rerum minus animi dolorem dolores, a quaerat, debitis exercitationem alias dicta?</div>
+                <div className='d-flex flex-row align-items-center justify-content-center' style={pStyle}>
+                    <div className='d-flex flex-column align-items-center justify-content-center'>
 
-                <div style={imgStyle}>
+                        <h1 style={{ fontWeight: "bolder" }} className='text-white text-centre'>PDC 1.0</h1>
+                        <div style={{ color: "white", fontSize: "1.2rem" }} className="ps-2 pe-2 d-flex justify-content-center align-items-center" >Clowak Innovations introduces Portable Dental Clinic (PDC), is portable dentistry equipment ideal for use for domiciliary, military, humanitarian and normally inaccessible environments.</div>
 
+                        <div style={btnStyle} className="d-flex justify-content-center align-items-center btn">More</div>
+                    </div>
+                    <div style={imgStyle}></div>
                 </div>
-                {/* <img style={{ justifySelf: "center" }} src={briefcase} height="800px" alt="" /> */}
 
+                <div className='d-flex flex-row align-items-center justify-content-center' style={pStyle}>
+                    <div className='d-flex flex-column align-items-center justify-content-center'>
+
+                        <h1 style={{ fontWeight: "bolder" }} className='text-white text-centre'>PDC 1.0</h1>
+                        <div style={{ color: "white", fontSize: "1.2rem" }} className="ps-2 pe-2 d-flex justify-content-center align-items-center" >Clowak Innovations introduces Portable Dental Clinic (PDC), is portable dentistry equipment ideal for use for domiciliary, military, humanitarian and normally inaccessible environments.</div>
+
+                        <div style={btnStyle} className="d-flex justify-content-center align-items-center btn">More</div>
+                    </div>
+                    <div style={imgStyle}></div>
+                </div>
             </div>
         </>
     )

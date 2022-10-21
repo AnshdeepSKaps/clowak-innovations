@@ -1,9 +1,29 @@
+body{
+    padding-bottom: 200px;
+    background: rgb(255, 255, 255);
+    /* font-family: ; */
+    /* font-family: 'Alkalami', serif; */
+}
+
 .anchor{
     /* border: 2px solid red; */
     text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: .2s;
 }
 
 .anchor:hover{
-    text-decoration: underline;
-    color: white;
+    border-radius: 10px;
+    background: rgb(239, 235, 235);
+    color: black;
+    /* text-decoration: underline; */
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .info1-container{
+        /* flex-direction: column !important; */
+    }
 }

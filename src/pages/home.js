@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import Info1 from '../components/info1'
 import bg from '../images/bg.jpg'
+import Body from '../components/Body'
+import Collaborations from '../components/collaborations'
 
 export default function home() {
 
@@ -25,6 +27,9 @@ export default function home() {
             </div>
 
             <Info1 />
+            <Collaborations />
+
+            <Body />
 
         </div>
 
